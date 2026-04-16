@@ -5,16 +5,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const portfolioData: PortfolioItem[] = [
-    { id: 1, title: 'Social Media Campaign', category: 'Marketing', imageUrl: '1.png' },
-    { id: 2, title: 'Executive Schedule Management', category: 'Admin', imageUrl: '2.png' },
-    { id: 3, title: 'Blog Content Creation', category: 'Content', imageUrl: '3.png' },
-    { id: 4, title: 'Monthly Financial Reports', category: 'Bookkeeping', imageUrl: '4.png' },
-    { id: 5, title: 'Customer Support System Setup', category: 'Admin', imageUrl: '5.png' },
-    { id: 6, title: 'Newsletter Design & Automation', category: 'Marketing', imageUrl: '6.png' },
-    { id: 7, title: 'Blog Content Creation', category: 'Content', imageUrl: '3.png' },
-    { id: 8, title: 'Monthly Financial Reports', category: 'Bookkeeping', imageUrl: '4.png' },
-    { id: 9, title: 'Customer Support System Setup', category: 'Admin', imageUrl: '5.png' },
-    { id: 10, title: 'Newsletter Design & Automation', category: 'Marketing', imageUrl: '6.png' },
+    { id: 1, title: 'PORTFOLIO', category: '', imageUrl: '1.png' },
+    { id: 2, title: 'PORTFOLIO', category: '', imageUrl: '2.png' },
+    { id: 3, title: 'PORTFOLIO', category: '', imageUrl: '3.png' },
+    { id: 4, title: 'PORTFOLIO', category: '', imageUrl: '4.png' },
+    { id: 5, title: 'PORTFOLIO', category: '', imageUrl: '5.png' },
+    { id: 6, title: 'PORTFOLIO', category: '', imageUrl: '6.png' },
+    { id: 7, title: 'PORTFOLIO', category: '', imageUrl: '3.png' },
+    { id: 8, title: 'PORTFOLIO', category: '', imageUrl: '4.png' },
+    { id: 9, title: 'PORTFOLIO', category: '', imageUrl: '5.png' },
+    { id: 10, title: 'PORTFOLIO', category: '', imageUrl: '6.png' },
 ];
 
 // Updated Props to accept an onClick handler
