@@ -43,19 +43,20 @@ const Contact: React.FC = () => {
 
                     {/* Right: Booking */}
                     <div className="bg-primary/10 p-8 rounded-2xl text-center flex flex-col justify-center">
-                        <h3 className="text-2xl font-bold text-dark mb-4">Book a Free Consultation</h3>
-                        <p className="text-slate-600 mb-8">
-                            Let's have a 15-minute chat to see how I can help you achieve your goals. No strings attached!
-                        </p>
-                        <a 
-                            href="#" // Replace with your Calendly link
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="bg-accent text-white font-bold px-8 py-4 rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg mx-auto"
-                        >
-                            Schedule a Meeting
-                        </a>
-                    </div>
+  <h3 className="text-2xl font-bold text-dark mb-4">Book a Free Consultation</h3>
+  <p className="text-slate-600 mb-8">
+    Let&apos;s have a 15-minute chat to see how I can help you achieve your goals. No strings attached!
+  </p>
+
+  <a
+    href="https://calendly.com/mattykie27/jaja-va-website"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-accent text-white font-bold px-8 py-4 rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg mx-auto inline-block"
+  >
+    Schedule a Meeting
+  </a>
+</div>
                 </div>
             </div>
         </section>
